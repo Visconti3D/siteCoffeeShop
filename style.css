@@ -1,0 +1,79 @@
+* {
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div, header, footer, ul, li, p, h2, h3 {
+    background-color: fff; 
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: inline-flex;
+    justify-content: space-between; 
+}
+
+.siteLogo {
+    align-items: center;
+    padding-left: 30px;
+    padding: 20px;
+}
+
+.listNav ul {
+    display:flex
+    align-content: center;
+}
+
+.listNav li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.banner img{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.produtos {
+    display: inline-flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 250px;
+}
+.produtos img {
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.destaques {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.desTit {
+    padding-left: 30px;
+}
+
+.desItems ul {
+    display: inline;
+    align-content: center;
+}
+
+.desItens li {
+    display: inline;
+    padding: 10px;
+}
